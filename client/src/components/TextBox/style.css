@@ -1,0 +1,59 @@
+.textBoxDiv {
+    text-align: center;
+}
+
+.textbox {
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#btn1 {
+    background-color: rgb(11, 56, 2);
+    color: white;
+    border-radius: 5px;
+    height: auto;
+    font-size: 30px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+.direction {
+    color: black;
+}
+
+#textarea{
+margin: 0 auto;
+width: 900px;
+margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #textarea {
+        height: 100px;
+        width: 92%;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    #textarea {
+        height: 100px;
+        width: 92%;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #textarea {
+        height: 100px;
+        width: 700px;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+  }

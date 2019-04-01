@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+html, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('./components/assets/WhiteBackground.jpg');
+  background-size: cover;
+}
+
+.message {
+  text-align: center;
+}
+
+.theContainer{
+  height: 100%
+}
+
